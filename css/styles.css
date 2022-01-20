@@ -1,0 +1,108 @@
+body {
+  background-color: #f3d9dd;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+nav {
+  background-color: #945c34;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 27px;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px 10px 20px 0px;
+}
+.img-logo {
+  width: 220px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.barra-de-navegacion {
+  display: inline-flex;
+
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style-type: none;
+  transition: 0.8s all;
+}
+nav li {
+  border-right: 1px solid #ee660c;
+  padding: 20px 20px;
+}
+.barra-de-navegacion li:hover {
+  background-color: #fdf6f6;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.banner {
+  width: 75%;
+  height: 700px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.featured{
+   padding: 0 10px;
+   background-color: #f8b8e5d5 ;
+   overflow: hidden;
+}
+.fp-video{
+   padding: 1em;
+}
+.ft-receta{
+   width: 38%;
+   font-size: 0.9em;
+   background-color: #f8ace1d5 ;
+   vertical-align: top;
+   padding-top: 10px;
+   margin-top: 25px;
+}
+.fp-video, .ft-receta{
+   display: inline-block;
+}
+.ft-receta h2{
+   border-bottom: solid thin #8b4513 ;
+}
+.bologñesa{
+   padding: 2.5px;
+   text-align: left;
+}
+.boton-container{
+   text-align: center;
+   background-color: #938bc9;
+
+
+}
+.boton-container a{
+   text-decoration: none;
+   color: #7ab4ee;
+}
+.boton-container :hover{
+   background-color: #091d1b;
+}
+.boton{
+   padding: 18px;
+}
+h3{
+   font-size: 20px;
+   text-align: center;
+}
+.articulo{
+   padding: 30px;
+   background-color: #f8ace1d5 ;
+   margin: 20px 0;
+
+}
+.art-image{
+   width: 100%;
+}
